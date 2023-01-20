@@ -1,0 +1,20 @@
+/* try out specificity an cascading */
+
+/* stiprumas id yra 100 */
+#special {
+  color: limegreen;
+}
+
+/* stiprumas klases yra 10 */
+.primary {
+  color: tomato !important ;
+}
+/* stiprumas zymos (tag) yra 1 */
+p {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  color: blue;
+}
