@@ -1,0 +1,29 @@
+/* root 1em = 16px */
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.rem-title {
+  font-size: 2.4rem;
+}
+.rem-text {
+  font-size: 1.5rem;
+}
+
+.em-title {
+  font-size: 2em;
+}
+.em-text {
+  font-size: 1.5em;
+}
+
+article {
+  /* font-size: 2em; */
+}
+
+.test {
+  /* font-size: 2em; */
+}
