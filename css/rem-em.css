@@ -27,3 +27,26 @@ article {
 .test {
   /* font-size: 2em; */
 }
+
+/* Buttons */
+
+.btn {
+  font-size: 2rem;
+  border: none;
+  background-color: #dedede;
+  padding: 8px 16px;
+  padding: 0.5em 1.2em;
+  line-height: 1;
+}
+
+.btn-small {
+  font-size: 1.2rem;
+}
+
+.btn-large {
+  font-size: 5rem;
+}
+
+.btn-huge {
+  font-size: 10rem;
+}
