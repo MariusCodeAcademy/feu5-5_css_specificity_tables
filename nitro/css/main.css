@@ -1,0 +1,22 @@
+/* about */
+
+.about-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.title--section {
+  font-size: 4rem;
+  color: #007bff;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.flex-item {
+  width: 45%;
+}
