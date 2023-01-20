@@ -1,8 +1,10 @@
 /* try out specificity an cascading */
-
+main {
+  color: green;
+}
 /* stiprumas id yra 100 */
 #special {
-  color: limegreen;
+  color: #32cd32;
 }
 
 /* stiprumas klases yra 10 */
@@ -16,5 +18,14 @@ p {
 
 p {
   font-weight: normal;
+}
+
+.blue {
   color: blue;
+}
+/* nusitaikyti i elementa su klase blue ir green */
+/* selectoriaus stiprumas yra 20 = 10 + 10 */
+.blue.green {
+  background-color: limegreen;
+  color: wheat;
 }
